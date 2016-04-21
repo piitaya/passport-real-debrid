@@ -1,6 +1,6 @@
 # Passport-Real-Debrid
 
-[Passport](http://passportjs.org/) strategy for authenticating with [Trakt](http://trakt.tv/)
+[Passport](http://passportjs.org/) strategy for authenticating with [Real-Debrid](https://real-debrid.com/)
 using the OAuth 2.0 API.
 
 This module lets you authenticate using Real-Debrid in your Node.js applications.
@@ -22,7 +22,7 @@ and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which accepts
 these credentials and calls `done` providing a user, as well as `options`
 specifying a client ID, client secret, and callback URL.
 
-    passport.use(new TraktStrategy({
+    passport.use(new RealDebridStrategy({
         clientID: REAL_DEBRID_CLIENT_ID,
         clientSecret: REAL_DEBRID_CLIENT_SECRET,
         callbackURL: "https://127.0.0.1:3000/auth/real-debrid/callback"
