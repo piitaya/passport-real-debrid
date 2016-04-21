@@ -1,0 +1,38 @@
+{
+  "name": "passport-real-debrid",
+  "version": "1.0.0",
+  "description": "Real-debrid authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "real-debrid",
+    "auth",
+    "authn",
+    "oauth",
+    "authentication",
+    "identity"
+  ],
+  "author": {
+    "name": "Paul Bottein",
+    "email": "paul.bottein@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/piitaya/passport-real-debrid.git"
+  },
+  "bugs": {
+    "url": "http://github.com/piitaya/passport-real-debrid/issues"
+  },
+  "license": "MIT",
+  "main": "./lib",
+  "dependencies": {
+    "pkginfo": "0.3.x",
+    "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "2.x.x",
+    "chai": "2.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
